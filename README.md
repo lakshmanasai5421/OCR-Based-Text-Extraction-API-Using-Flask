@@ -80,9 +80,19 @@ Open in browser (For OCR Image):
 http://127.0.0.1:5000/extract/image?url=https://thumbs.dreamstime.com/z/old-newspaper-design-vector-template-vintage-retro-background-text-images-77345579.jpg
 ```
 
+Execute in **CMD**:
+```cmd
+curl "http://127.0.0.1:5000/extract/image?url=https://thumbs.dreamstime.com/z/old-newspaper-design-vector-template-vintage-retro-background-text-images-77345579.jpg"
+```
+
 ### **Test with Your Example PDF**
 Open in browser (For PDF extraction):
 ```
 http://127.0.0.1:5000/extract/pdf?url=https://arxiv.org/pdf/1706.03762.pdf
+```
+
+Execute in **CMD**:
+```cmd
+curl "http://127.0.0.1:5000/extract/pdf?url=https://arxiv.org/pdf/1706.03762.pdf"
 ```
 

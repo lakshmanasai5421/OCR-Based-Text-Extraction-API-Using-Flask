@@ -37,17 +37,17 @@ Check if Python is installed:
 python --version
 
 
-### **2️⃣ Install PHP (for Client)**
+**2️⃣ Install PHP (for Client)**
 Check if PHP is installed:
 ```cmd
 php -v
 
-### **3️⃣ Install Required Python Modules**
+ **3️⃣ Install Required Python Modules**
 Run the following command:
 
 pip install flask requests pdfplumber pytesseract pillow
 
-### **📦 Python Modules & Versions**
+**📦 Python Modules & Versions**
 Module	Version
 Flask	3.0.0
 requests	2.31.0
@@ -56,15 +56,15 @@ pytesseract	0.3.10
 Pillow  10.0.1
 
 
-### **🚀 Running the Project**
-### **1️⃣ Start Flask Server**
+**🚀 Running the Project**
+**1️⃣ Start Flask Server**
 Run the following command:
 
 cmd:-
 python server.py
 
 
-### **🔗 API Endpoints**
+**🔗 API Endpoints**
 
 **Test with Your Example Image**
 Open in browser (For OCR Image):-

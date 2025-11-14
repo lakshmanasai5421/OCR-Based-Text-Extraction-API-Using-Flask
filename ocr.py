@@ -5,7 +5,7 @@ import requests
 import io
 
 ocr_bp = Blueprint('ocr', __name__)
-
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 def extract_text_from_image(image_file):
     """Performs OCR on an image using Tesseract"""
     try:
@@ -42,3 +42,4 @@ def extract_image():
         return jsonify({"text": text})
 
     return jsonify({"error": "Invalid request"}), 405
+
